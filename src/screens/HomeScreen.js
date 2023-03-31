@@ -5,7 +5,7 @@ const HomeScreen = ({navigation}) => {
   // console.log(props.navigation)
   return (
     <View>
-      <Text style={styles.text}>Do not forget to pray Qiyam ya Aya Elsayed Morsi :D</Text>
+      <Text style={styles.text}>Nice meeting you Peter and Dardo :)</Text>
       <Button 
         onPress={() => navigation.navigate('Components')}
         title="Go to components demo" 
@@ -29,6 +29,10 @@ const HomeScreen = ({navigation}) => {
       <Button 
         onPress={() => navigation.navigate('Square')}
         title="Go to Square demo" 
+      />
+      <Button 
+        onPress={() => navigation.navigate('Text')}
+        title="Go to Text input demo" 
       />
       {/* <TouchableOpacity
         onPress={() => navigation.navigate('List')}
